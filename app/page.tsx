@@ -81,11 +81,15 @@ export default function HomePage() {
       {/* Animated gradient header */}
       <div className="gradient-animate h-1 w-full"></div>
 
+      <div className="absolute top-4 left-4 z-10">
+        <p className="text-xs text-muted-foreground/70">Developed by Yash Vardhan Pandey</p>
+      </div>
+
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <Brain className="h-8 w-8 text-primary" />
+            <Brain className="h-8 w-8 text-primary mx-auto mb-2" />
             <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               AI Content Detector
             </h1>
