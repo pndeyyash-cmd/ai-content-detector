@@ -119,9 +119,6 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground;
-  }
 }
 
 body {
@@ -130,6 +127,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    @apply bg-background text-foreground;
 }
 
 
